@@ -1,0 +1,9 @@
+.hero_container{
+    width: 100%;
+    height: 450px;
+    background-image: url('https://turo-web-clone.netlify.app/static/media/banner.91fd044763f9e2a7ff98.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+}

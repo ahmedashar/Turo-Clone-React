@@ -1,0 +1,36 @@
+.section_2_main{
+    display: flex;
+    justify-content: center;
+}
+.sec2_cont{
+    max-width: 55% !important;
+}
+.s2_img{
+    width: 450px;
+    height: 294px;
+}
+.s2_heading{
+    font-size: 38px;
+    font-weight: bolder;
+}
+.s2_heading_span{
+    color:#593CFB;
+}
+.s2_para{
+    line-height: 24px;
+    font-size: 18px;
+}
+.s2_btn{
+    height: 60px;
+    padding: 10px 20px !important;
+    text-align: center;
+    background-color: #593CFB;
+    border: 1px solid #593CFB;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.s2_btn:hover{
+    background-color: #4332a3;
+}

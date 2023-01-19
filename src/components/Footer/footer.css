@@ -1,0 +1,20 @@
+
+.footer_main_container{
+    display: flex;
+    background-color: #f4f4f4;
+    justify-content: center;
+}
+.footer-cont{
+    width: 1200px !important;
+}
+.terms_cond{
+    font-size: 16px;
+}
+.F_links{
+    display: block;
+}
+.usa_flag{
+    width: 120px;
+    height: 120px;
+    border-radius: 100% !important;
+}

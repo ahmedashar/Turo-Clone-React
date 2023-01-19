@@ -1,6 +1,7 @@
 
 import './App.css';
 import Experience from './components/Experience';
+import Footer from './components/Footer';
 import GiftCard from './components/GiftCard';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -27,6 +28,7 @@ function App() {
       <Host />
       <Services />
       <Questions />
+      <Footer />
     </>
   );
 }

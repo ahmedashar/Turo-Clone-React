@@ -1,0 +1,33 @@
+.service_container_main{
+    display: flex;
+    justify-content: center;
+}
+.service_cont{
+    /* background-color: yellow; */
+    width: 900px !important;
+}
+.book_detail{
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 180px!important ;
+    /* vertical-align: bottom; */
+}
+.book_heading{
+    font-size: 35px;
+    color: #633cfb;
+    font-weight: bolder;
+    margin-bottom: 10px!important;
+}
+.book_heading:hover{
+    color: #331f85;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.book_des{
+    font-size: 18px;
+    /* letter-spacing: .5px; */
+    word-spacing: .5px;
+}
+.host_detail{
+    text-align: center;
+}

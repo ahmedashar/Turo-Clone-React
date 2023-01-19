@@ -1,0 +1,18 @@
+.gift_container_main{
+    display: flex;
+    justify-content: center;
+}
+.gift_detail{
+    width: 500px !important;
+    /* background-color: palegoldenrod;  */
+}
+.gift_img{
+    width: 500px;
+    /* text-align: right; */
+}
+.gift_heading{
+    font-weight: bolder;
+}
+.gift_para{
+    font-size: 20px;
+}

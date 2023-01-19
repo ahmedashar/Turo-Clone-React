@@ -1,0 +1,32 @@
+.sec3_container_main{
+display: flex;
+justify-content: center;
+}
+/* .sec3_cont{
+    background-color: pink;
+
+} */
+.slick_div{
+    width: 180px !important;
+    height: 210px;
+    margin-bottom: 10px !important;
+    box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.54);
+-webkit-box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.54);
+-moz-box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.54);
+border-radius: 10px;
+}
+.slick_div:hover{
+    color:#593cfb;
+    cursor: pointer;
+    /* filter: invert(20%) sepia(54%) saturate(6149%) hue-rotate(248deg) brightness(101%) contrast(97%); */
+    filter: brightness(0) saturate(100%) invert(18%) sepia(66%) saturate(4657%) hue-rotate(248deg) brightness(101%) contrast(97%);
+}
+.slick_img_dest{
+    width: 90%;
+    margin: auto !important;
+}
+.slick_div h3{
+
+    font-size: 20px !important;
+    font-weight: bolder;
+}

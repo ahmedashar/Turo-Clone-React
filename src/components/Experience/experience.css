@@ -1,0 +1,30 @@
+.experience_container_main{
+    display: flex;
+    justify-content: center;
+}
+.slick_div_exp{
+    width: 400px !important;
+    height: 360px;
+    margin-bottom: 10px !important;
+    /* box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.54);
+-webkit-box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.54);
+-moz-box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.54);
+border-radius: 10px; */
+}
+.slick_img_exp{
+    width: 100%;
+}
+.exp_title{
+    display: flex;
+    align-items: center;
+}
+.icon_exp{
+    font-size: 36px;
+    color: #593cfb;
+}
+.exp_span{
+    font-size: 20px;
+    margin-left: 10px !important;
+    /* margin-top: 20px !important; */
+    font-weight: bold;
+}

@@ -1,27 +1,44 @@
 import React from 'react'
 import './section2.css'
 import Slider from "react-slick";
-function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-        <div
-            className={className}
-            style={{ ...style, display: "block", backgroundColor: 'black' }}
-            onClick={onClick}
-        />
-    );
-}
+import logo from '../../assets/img/Turo-Symbol.png'
+import { MdOutlineArrowForwardIos, MdOutlineArrowBackIosNew } from "react-icons/md";
+// IoIosArrowBack
+// MdOutlineArrowBackIosNew
+// MdOutlineArrowForwardIos
 
-function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
+
+
+// function SamplePrevArrow(props) {
+//     const { className, style, onClick } = props;
+//     return (
+//         <div
+//             className={className}
+//             style={{ ...style, display: "block", background: "black" }}
+//             onClick={onClick}
+//         />
+//     );
+// }
+
+const NextArrow = (props) => {
+    const { className, onClick } = props;
     return (
-        <div
-            className={className}
-            style={{ ...style, display: "block", background: "black" }}
-            onClick={onClick}
-        />
+        <div>
+            {/* <i className="fas fa-arrow-right" style={{ fontSize: '1px', background: 'black' }} /> */}
+            <MdOutlineArrowForwardIos className={className} style={{ color: 'black', top: '-20' }} onClick={onClick} />
+        </div>
     );
-}
+};
+const PrevArrow = (props) => {
+    const { className, onClick } = props;
+    return (
+        <div >
+            {/* <i className="fas fa-arrow-right" style={{ fontSize: '1px', background: 'black' }} /> */}
+            <MdOutlineArrowBackIosNew className={className} style={{ fontSize: '100px', color: 'black', top: '-20', left: '94%' }} onClick={onClick} />
+        </div>
+    );
+};
+
 const Section2 = () => {
     const settings = {
         // dots: true,
@@ -29,17 +46,24 @@ const Section2 = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+        nextArrow: <NextArrow />,
+
+        prevArrow: <PrevArrow />
     };
+
+
+
     return (
         <div className='container-fluid section_2_main mt-5 pt-5'>
-            <div className='container sec2_cont'>
+
+
+            <div className='container sec2_cont mt-5'>
+
                 <Slider {...settings}>
                     <div className='container'>
                         <div className='row'>
-                            <div className='col-md-6 text-center ml-4'>
-                                <img className='s2_img text-center' src='https://resources.turo.com/f/81934/416x284/6e085cbe0e/image_outdoors_416x285.jpg'></img>
+                            <div className='col-md-6 text-right pl-4'>
+                                <img className='s2_img text-right' src='https://resources.turo.com/f/81934/416x284/6e085cbe0e/image_outdoors_416x285.jpg'></img>
                             </div>
                             <div className='col-md-6'>
                                 <h2 className='s2_heading'>Find the perfect car<span className='s2_heading_span'> to conquer the great outdoors</span></h2>
@@ -116,8 +140,9 @@ const Section2 = () => {
 
             </div>
 
-        </div>
+        </div >
     )
 }
+
 
 export default Section2

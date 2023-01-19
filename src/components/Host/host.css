@@ -1,0 +1,39 @@
+.host_main_container{
+    display: flex;
+    justify-content: center;
+}
+.slick_div_host{
+    width: 400px !important;
+    height: 290px;
+    /* background-color: yellow; */
+    box-shadow: -1px 4px 21px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 4px 21px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 4px 21px -2px rgba(0,0,0,0.75);
+}
+.hp1_img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.slick_div_hp1{
+    display: flex;
+    
+}
+.hp1_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px !important;
+}
+.hp1_info .info_name{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.host_rating{
+    font-size: 22px;
+    color: #593CFB;
+ 
+    /* margin-left: 2px !important; */
+}
+.host_review{
+    font-size: 20px;
+}

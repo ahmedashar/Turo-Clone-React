@@ -9,6 +9,8 @@
 .s2_img{
     width: 450px;
     height: 294px;
+
+    margin: auto !important;
 }
 .s2_heading{
     font-size: 38px;
@@ -35,3 +37,13 @@
 .s2_btn:hover{
     background-color: #4332a3;
 }
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .s2_detail{
+        text-align: center;
+    }
+    .s2_detail h2{
+        font-size: 30px;
+    }
+ }

@@ -7,13 +7,14 @@ justify-content: center;
 
 } */
 .slick_div{
-    width: 180px !important;
-    height: 210px;
+    width: 165px !important;
+    height: 190px;
     margin-bottom: 10px !important;
-    box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.54);
--webkit-box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.54);
--moz-box-shadow: -1px 2px 17px 0px rgba(0,0,0,0.54);
-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: 6px !important;
+-webkit-box-shadow: 0px 2px 19px -5px rgba(0,0,0,0.47);
+-moz-box-shadow: 0px 2px 19px -5px rgba(0,0,0,0.47);
+box-shadow: 0px 2px 19px -5px rgba(0,0,0,0.47);
 }
 .slick_div:hover{
     color:#593cfb;
@@ -30,3 +31,4 @@ border-radius: 10px;
     font-size: 20px !important;
     font-weight: bolder;
 }
+

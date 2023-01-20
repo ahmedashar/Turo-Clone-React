@@ -2,11 +2,11 @@
 .searchbar_main{
     width: 940px !important;
     margin: auto !important;
-    height: 56px;
+    min-height: 56px;
     background-color: white;
     border-radius: 50px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
 
 }
 .input_cont1{
@@ -31,6 +31,14 @@
 }
 .input_cont2 input{
     border-style:none ;
+    
+}
+.date_input{
+    width: 120px;
+    margin-right: 20px!important;
+}
+.time_input{
+    width: 80px;
 }
 .input_cont3{
     /* background-color: pink; */
@@ -48,4 +56,66 @@
     margin-top: 6px!important;
     border: 1px solid #593CFB;
     background-color: #593CFB;
+}
+.search_btn{
+    display: none;
+}
+
+/* // Large devices (desktops, 992px and down) */
+@media (max-width: 992px) { 
+    /* SearchBar */
+    .input_cont1{
+        width: 260px !important;
+    }
+    .input_cont1 input{
+        width: 200px !important;
+        font-size: 14px;
+    }
+    .input_cont2{
+        width: 290px !important;
+    }
+    .input_cont3{
+        width: 290px !important;
+        padding-right: 0px !important;
+    }
+    .date_input{ 
+        font-size: 14px; width: 100px !important; margin-right: 3px!important;
+    }
+    .time_input{
+        font-size: 14px;
+        width: 70px !important;
+    }
+ }
+ /* // Medium devices (tablets, 768px and down) */
+ @media (max-width: 768px) { 
+    /* Search-Bar */
+    .searchbar_main{
+        width: 80% !important;
+        /* margin: auto !important; */
+        
+        /* background-color: white; */
+        border-radius: 10px !important;
+        /* display: flex; */
+        flex-direction: column;
+        padding-top: 5px !important;
+        /* justify-content: center; */
+    
+  }
+  .input_cont1, .input_cont2, .input_cont3{
+    border-right: none;
+    width: 96% !important;
+    border-bottom: .1px solid rgb(146, 146, 146);
+    margin: 1px 10px !important;
+  }
+  .search_icon{
+    display: none;
+  }
+  .search_btn{
+    display: inline;
+    background-color: #593CFB;
+    color: white;
+    font-weight: bold;
+    margin: 10px !important;
+    padding: 8px 0px !important;
+  }
 }

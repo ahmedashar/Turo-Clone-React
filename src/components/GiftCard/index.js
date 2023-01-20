@@ -3,10 +3,10 @@ import './giftcard.css'
 const GiftCard = () => {
     return (
         <div className='container-fluid gift_container_main mt-5 pt-5'>
-            <div className='container gift_cont mt-5 pt-5'>
+            <div className='container gift_cont mt-5'>
                 <div className='row'>
-                    <div className='col-md-6'>
-                        <img className='gift_img' src='https://resources.turo.com/f/81934/751x423/cb9c4231e8/lm-gift-card-2x.png' />
+                    <div className='col-md-6 text-center'>
+                        <img className='gift_img img-fluid' src='https://resources.turo.com/f/81934/751x423/cb9c4231e8/lm-gift-card-2x.png' />
                     </div>
                     <div className='col-md-6 gift_detail'>
                         <h2 className='gift_heading'>Shop Turo gift cards</h2>

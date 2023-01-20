@@ -5,7 +5,7 @@ const Travelouges = () => {
         <div className='container-fluid travel_container_main mt-5 pt-5'>
             <div className='container'>
                 <div className='travel_des text-center'>
-                    <h1 style={{ fontSize: '50px', fontWeight: 'bolder' }}>Fuel your daydreams</h1>
+                    <h1 className='T_des_heading' >Fuel your daydreams</h1>
                     <p style={{ fontSize: "18px" }} className='mt-4'>Stoke your wanderlust with some dreamy photo chronicles of road trip adventures.</p>
                     <button className='mt-4 s2_btn'>Explore Travelouges</button>
                 </div>

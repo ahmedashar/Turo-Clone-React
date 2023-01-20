@@ -9,7 +9,7 @@ const NextArrow = (props) => {
     return (
         <div>
             {/* <i className="fas fa-arrow-right" style={{ fontSize: '1px', background: 'black' }} /> */}
-            <MdOutlineArrowForwardIos className={className} style={{ color: 'black', top: '-20' }} onClick={onClick} />
+            <MdOutlineArrowForwardIos className={className} style={{ color: 'black', top: '-40', right: '1%' }} onClick={onClick} />
         </div>
     );
 };
@@ -18,7 +18,7 @@ const PrevArrow = (props) => {
     return (
         <div style={{ background: 'black' }}>
             {/* <i className="fas fa-arrow-right" style={{ fontSize: '1px', background: 'black' }} /> */}
-            <MdOutlineArrowBackIosNew className={className} style={{ fontSize: '100px', color: 'black', top: '-20', left: '94%' }} onClick={onClick} />
+            <MdOutlineArrowBackIosNew className={className} style={{ fontSize: '100px', color: 'black', top: '-40', left: '90%' }} onClick={onClick} />
         </div>
     );
 };
@@ -31,25 +31,34 @@ const Section3 = () => {
         infinite: false,
         slidesToShow: 6,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 4000,
         pauseOnHover: true,
         nextArrow: <NextArrow />,
         prevArrow: <PrevArrow />,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1200,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 5,
                     slidesToScroll: 1,
                     infinite: true,
                     dots: true
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 1000,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 760,
+                settings: {
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                     initialSlide: 2
                 }
@@ -57,7 +66,7 @@ const Section3 = () => {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1
                 }
             }
@@ -66,7 +75,7 @@ const Section3 = () => {
     return (
         <div className='container-fluid sec3_container_main mt-5 pt-5'>
             <div className='container sec3_cont mt-5'>
-                <h4 style={{ fontWeight: 'bolder' }}>Browse by destination</h4>
+                <h4 className='mx-2' style={{ fontWeight: 'bolder' }}>Browse by destination</h4>
                 <div className='s3_slider mt-5'>
                     <Slider {...settings}>
 

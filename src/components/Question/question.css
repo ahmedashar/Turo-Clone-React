@@ -21,3 +21,10 @@
 /* .accordion-item{
     background-color: yellow !important;
 } */
+
+
+@media (max-width: 768.98px) {
+    .ques_heading{
+        font-size: 40px;
+    }
+}

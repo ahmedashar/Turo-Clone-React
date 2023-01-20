@@ -3,12 +3,13 @@
     justify-content: center;
 }
 .slick_div_host{
+    margin: 15px !important;
     width: 400px !important;
     height: 290px;
     /* background-color: yellow; */
-    box-shadow: -1px 4px 21px -2px rgba(0,0,0,0.75);
--webkit-box-shadow: -1px 4px 21px -2px rgba(0,0,0,0.75);
--moz-box-shadow: -1px 4px 21px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 19px -5px rgba(0,0,0,0.47);
+-moz-box-shadow: 0px 2px 19px -5px rgba(0,0,0,0.47);
+box-shadow: 0px 2px 19px -5px rgba(0,0,0,0.47);
 }
 .hp1_img{
     border-radius: 50%;
@@ -36,4 +37,95 @@
 }
 .host_review{
     font-size: 20px;
+}
+
+
+@media (max-width: 1399.98px) {
+    .slick_div_host{
+        margin: 15px !important;
+        width: 350px !important;
+    }
+    .hp1_img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    .hp1_info{
+        font-size: 13px;
+    }
+    .host_review{
+        font-size: 16px;
+    }
+    .host_dur{
+        font-size: 13px;
+
+    }
+
+}
+@media (max-width: 1199.98px) {
+    .slick_div_host{
+        width: 310px !important;
+    }
+    .hp1_img{
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+    }
+}
+@media (max-width: 991.98px) {
+    .slick_div_host{
+        margin: 15px !important;
+        width: 350px !important;
+    }
+    .hp1_img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+
+}
+@media (max-width: 767.98px) {
+    .slick_div_host{
+        margin: 15px !important;
+        width: 260px !important;
+    }
+
+}
+
+@media (max-width: 567.98px) {
+    .slick_div_host{
+        margin: 15px !important;
+        width: 380px !important;
+        
+    }
+    .hp1_img{
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    .hp1_info{
+        font-size: 16px;
+    }
+    .host_review{
+        font-size: 18px;
+    }
+    .host_dur{
+        font-size: 16px;
+
+    }
+
+}
+@media (max-width: 380.98px) {
+    .slick_div_host{
+        /* margin: 15px !important; */
+        width: 320px !important;
+        
+    }
+    .host_review{
+        font-size: 16px;
+    }
+    .host_dur{
+        font-size: 12px;
+
+    }
 }

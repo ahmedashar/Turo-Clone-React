@@ -8,7 +8,7 @@ const NextArrow = (props) => {
     return (
         <div>
             {/* <i className="fas fa-arrow-right" style={{ fontSize: '1px', background: 'black' }} /> */}
-            <MdOutlineArrowForwardIos className={className} style={{ color: 'black', top: '-20' }} onClick={onClick} />
+            <MdOutlineArrowForwardIos className={className} style={{ color: 'black', top: '-40', right: '1%' }} onClick={onClick} />
         </div>
     );
 };
@@ -17,7 +17,7 @@ const PrevArrow = (props) => {
     return (
         <div style={{ background: 'black' }}>
             {/* <i className="fas fa-arrow-right" style={{ fontSize: '1px', background: 'black' }} /> */}
-            <MdOutlineArrowBackIosNew className={className} style={{ fontSize: '100px', color: 'black', top: '-20', left: '94%' }} onClick={onClick} />
+            <MdOutlineArrowBackIosNew className={className} style={{ fontSize: '100px', color: 'black', top: '-40', left: '90%' }} onClick={onClick} />
         </div>
     );
 };
@@ -36,7 +36,16 @@ const Section1 = () => {
         prevArrow: <PrevArrow />,
         responsive: [
             {
-                breakpoint: 1024,
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 1000,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 1,
@@ -45,7 +54,7 @@ const Section1 = () => {
                 }
             },
             {
-                breakpoint: 600,
+                breakpoint: 760,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -66,7 +75,7 @@ const Section1 = () => {
             <div className='container section1_container  mt-5'>
                 <h1 className='sec_heading text-center'>Find your drive</h1>
                 <h3 className='sec_para mt-3 text-center'>Explore the world's largest car sharing marketplace</h3>
-                <h4 className='mt-5 pt-5 mb-5' style={{ fontWeight: 'bolder' }}>Browse by make</h4>
+                <h4 className='mt-5 pt-5 mb-5 mx-2' style={{ fontWeight: 'bolder' }}>Browse by make</h4>
                 <div className='container text-center mt-3'>
 
                     <Slider {...settings}>

@@ -31,3 +31,23 @@
 .host_detail{
     text-align: center;
 }
+
+
+@media (max-width: 767.98px) {
+    .book_detail{
+        margin-top: 0px!important ;
+        margin-bottom: 10px!important ;
+    }
+    .host_detail{
+        margin-top: 10px !important;
+    }
+    .book_heading{
+        font-size: 27px;
+        color: #633cfb;
+        font-weight: bolder;
+  
+    }
+    .book-carImg{
+        width: 320px;
+    }
+}
